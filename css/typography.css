@@ -1,0 +1,81 @@
+
+.k {
+   font-family: 'k';
+}
+
+.ac {
+   font-family: 'ac';
+}
+
+.smallCaps {
+   font-variant: small-caps;
+}
+
+.center {
+   text-align: center;
+}
+
+.block {
+   display: block;
+}
+
+body {
+   font-family: 'k';
+   font-size: 16px;
+   color: #ffffff;
+}
+
+h1, .h1 {
+   font-family: ac;
+   font-size: 60px;
+   font-variant: small-caps;
+
+}
+
+h2, .h2 {
+   font-family: ac;
+   font-size: 54px;
+   font-variant: small-caps;
+}
+
+.list-dashes {
+   font-size: 15px;
+   font-family: 'ac';
+   line-height: 2;
+}
+
+.list-dashes li:before {
+   height: 2px;
+   width: 15px;
+   margin-top: -2px;
+}
+
+.list-dashes-alt li:before {
+   background-color: #fff;
+}
+
+.list-dashes li:before {
+   content: '';
+   position: absolute;
+   top: 18px;
+   left: 0;
+   width: 20px;
+   height: 3px;
+   background-color: #fff;
+}
+
+.list-dashes li {
+   position: relative;
+   font-size: 21px;
+   letter-spacing: .02em;
+   padding-left: 36px;
+}
+
+[class^="list-"] {
+   list-style: none outside none;
+}
+
+ul {
+   margin-bottom: 2em;
+   margin-top: 2em;
+}
