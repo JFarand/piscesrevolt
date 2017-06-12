@@ -1,3 +1,8 @@
+# Folders #
+###################
+node_modules
+styl
+playground
 
 # Compiled source #
 ###################
@@ -40,3 +45,10 @@ Thumbs.db
 # Specific Files For This Repo #
 ################################
 bsharise_bio.html
+svg/bsharise_bsm_conjure_tagline_full.svg
+svg/bsm_quoteblock.svg
+svg/ferriswheel/
+js/master.js
+img/bsharise_laughter_ac.png
+img/bsharise_laughter_next_alpha36.png
+img/bsharise_laughter_next_alpha75.png
